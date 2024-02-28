@@ -1,0 +1,21 @@
+@use "@/app/(client)/scss/variables" as *;
+
+#productsGrid {
+  padding: 20px 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-grid {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+  }
+}

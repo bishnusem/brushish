@@ -2,6 +2,8 @@
 
 import { useLayoutEffect } from "react";
 import Lenis from "@studio-freight/lenis";
+import ProductsGrid from "@/components/shop/productsGrid/ProductsGrid";
+import Hero from "@/components/hero/Hero";
 
 export default function Home() {
   useLayoutEffect(() => {
@@ -17,9 +19,8 @@ export default function Home() {
 
   return (
     <>
-      <section id="hero">
-        <h1>Hero</h1>
-      </section>
+      <Hero />
+      <ProductsGrid />
     </>
   );
 }
